@@ -77,38 +77,40 @@ a:hover {
     width: 100%;
 }
 
+.intro-text, .nt {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
 .intro-text {
-    padding-bottom: 250px;
     margin-left:10%;
     display:flex;
     flex-flow: column wrap;
     flex:1;
-    color: #E77500
 }
 
 .intro-text h1 {
     min-width: 550px;
     width: 600px;
+    color: #E77500
 }
-.image img {
+.nt img {
     border-width: 5px 5px 5px 5px;
     border-style: solid;
     border-color: #000000;
     border-radius: 35px;
-    width: 500px;
-    height: 35vh;
+    width: 600px;
+    min-width: 500px;
 }
 
-
-.image {
+.nt {
     margin-right: 10%;
-    padding-bottom: 250px;
-    border: 5px #000000;
-    color:#1F2937;
-    margin-top: 40px;
-    min-width:300px;
-    max-height:100%;
 }
+
+
 
 .military {
     display: flex;

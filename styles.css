@@ -90,7 +90,6 @@ a:hover {
 }
 
 .intro-text {
-    padding-bottom: 250px;
     margin-left:15%;
     display:flex;
     flex-flow: column wrap;
@@ -276,11 +275,8 @@ footer {
     overflow: hidden;
 }
 
-.military-blurb {
-    margin-left: 5%;
-}
-
 .military-blurb p {
+    margin-right: 10%;
     width: 700px;
     min-width: 500px;
     color: #f9faf8;
