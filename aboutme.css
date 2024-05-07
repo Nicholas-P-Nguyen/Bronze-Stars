@@ -219,7 +219,7 @@ button {
     width: 400px;
     height: 400px;
     /* border: 3px solid #f7601b; */
-    background-image: url(/photos/rockyy.jpg);
+    background-image: url(./photos/rockyy.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -233,7 +233,7 @@ button {
     width: 400px;
     height: 400px;
     /* border: 3px solid #f7601b; */
-    background-image: url(/photos/Myloo.png);
+    background-image: url(./photos/Myloo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -246,7 +246,7 @@ button {
     width: 400px;
     height: 400px;
     /* border: 3px solid #f7601b; */
-    background-image: url(/photos/rocky&mylo.png);
+    background-image: url(./photos/rocky&mylo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
