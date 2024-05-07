@@ -10,8 +10,8 @@ body {
 }
 
 .logo {
-    width: 144px;
-    max-width: 144px;
+    width: 80px;
+    max-width: 100px;
     margin-top: 20px;
 }
 
@@ -81,6 +81,7 @@ header, .intro, .names, footer {
     text-shadow:0px 0px 5px black,
     0px 0px 20px black,
     0px 0px 40px white; 
+    width: 80%;
 }
 
 
