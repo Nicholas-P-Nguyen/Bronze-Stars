@@ -20,13 +20,6 @@ header, .intro, .military, footer {
                 0px 0px 40px white; 
 }
 
-.military {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    align-self: stretch;
-    justify-content: space-evenly;
-}
 
 
 header, .intro{
@@ -41,8 +34,9 @@ header, .intro{
 
 
 .logo {
-    width: 80px;
+    width: 90px;
     max-width: 100px;
+    min-width: 80px;
     margin-top: 20px;
 }
 
@@ -78,17 +72,48 @@ a:hover {
 }
 
 .intro{
-    height:100vh;
-    gap:32px;
+    display: flex;
+    height: 100vh;
+    width: 100%;
 }
 
 .intro-text {
     padding-bottom: 250px;
-    margin-left:15%;
+    margin-left:10%;
     display:flex;
     flex-flow: column wrap;
     flex:1;
     color: #E77500
+}
+
+.intro-text h1 {
+    min-width: 550px;
+    width: 600px;
+}
+.image img {
+    border-width: 5px 5px 5px 5px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 35px;
+    width: 500px;
+    height: 35vh;
+}
+
+
+.image {
+    margin-right: 10%;
+    padding-bottom: 250px;
+    border: 5px #000000;
+    color:#1F2937;
+    margin-top: 40px;
+    min-width:300px;
+    max-height:100%;
+}
+
+.military {
+    display: flex;
+    height: 130vh;
+    width: 100%;
 }
 
 .military-image img {
@@ -96,26 +121,28 @@ a:hover {
     border-style: solid;
     border-color: #000000;
     border-radius: 35px;
-    width: 100%;
-    height: 53vh;
+    width: 500px;
+    min-width: 350px;
+    height: 550px;
+    min-height: 400px;
 }
 
-.military-image {
-    padding-left: 250px;
-    margin-top: 200px;
-    margin-bottom: 200px;
+.military-image, .military-blurb {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .military-blurb {
-    margin-right: 150px;
-    margin-left:15%;
-    display:flex;
-    flex-flow: column wrap;
-    flex:1;
+    display: flex;
+    flex-direction: column;
 }
 
 .military-blurb p {
     width: 700px;
+    min-width: 500px;
     color: #f9faf8;
     font-size: 24px;
     text-shadow:0px 0px 5px black,
@@ -123,32 +150,6 @@ a:hover {
     0px 0px 40px white; 
 }
 
-.image {
-    padding-left: 200px;
-    padding-bottom: 250px;
-    border: 5px #000000;
-    flex:1;
-    display:flex;
-    align-self: stretch;
-    justify-content: center;
-    align-items:center;
-    color:#1F2937;
-    margin-top: 40px;
-    margin-right: 15%;
-    min-width:300px;
-    max-height:100%;
-    overflow: hidden;
-
-}
-
-.image img {
-    border-width: 5px 5px 5px 5px;
-    border-style: solid;
-    border-color: #000000;
-    border-radius: 35px;
-    width: 90%;
-    height: 35vh;
-}
 
 img {
     width:100%;

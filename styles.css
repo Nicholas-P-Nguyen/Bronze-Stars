@@ -10,8 +10,9 @@ body {
 }
 
 .logo {
-    width: 80px;
+    width: 90px;
     max-width: 100px;
+    min-width: 80px;
     margin-top: 20px;
 }
 
@@ -165,6 +166,22 @@ img {
     transition:ease-in .7s;
 }
 
+.military-image {
+    display: flex;
+    flex-direction: column;
+    transition:ease-in .7s;
+}
+
+.military-image, .description {
+    color: #E77500;
+}
+
+
+.military-image:hover {
+    color: #f7601b;
+    font-size: 22px;
+}
+
 .card:hover {
     color: #f7601b;
     font-size: 40px;
@@ -259,6 +276,9 @@ footer {
     overflow: hidden;
 }
 
+.military-blurb {
+    margin-left: 5%;
+}
 
 .military-blurb p {
     width: 700px;
