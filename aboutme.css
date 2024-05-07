@@ -160,6 +160,7 @@ header, .intro{
     font-size: 18px;
 }
 
+
 header ul {
     display:flex;
     gap:16px;
@@ -191,15 +192,16 @@ a:hover {
     color: #E77500
 }
 
+.intro-text p {
+    width: 520px;
+    min-width: 500px;
+}
+
 .intro-text h1 {
     width: 520px;
     min-width: 500px;
 }
 
-.intro-text p {
-    width: 700px;
-    min-width: 500;
-}
 
 .bronze-stars {
     flex:1;
