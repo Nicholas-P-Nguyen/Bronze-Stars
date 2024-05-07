@@ -80,34 +80,37 @@ a:hover {
 .intro-text, .nt {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     overflow: hidden;
 }
 
 .intro-text {
-    margin-left:10%;
-    display:flex;
-    flex-flow: column wrap;
-    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15%;
 }
 
+
 .intro-text h1 {
-    min-width: 550px;
+    min-width: 500px;
     width: 600px;
     color: #E77500
 }
+
 .nt img {
     border-width: 5px 5px 5px 5px;
     border-style: solid;
     border-color: #000000;
     border-radius: 35px;
     width: 600px;
-    min-width: 500px;
+    min-width: 400px;
 }
 
 .nt {
-    margin-right: 10%;
+    margin-right: 15%;
 }
 
 
@@ -135,6 +138,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    padding: 10px;
 }
 
 .military-blurb {
