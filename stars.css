@@ -152,6 +152,11 @@ a:hover {
     color: #E77500
 }
 
+.intro-text h1 {
+    width: 520px;
+    min-width: 500px;
+}
+
 .bronze-stars {
     padding-left: 200px;
     padding-bottom: 200px;
