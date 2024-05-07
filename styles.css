@@ -183,9 +183,9 @@ img {
 
 .card:hover {
     color: #f7601b;
-    font-size: 40px;
+    font-size: 22px;
 }
-.content-img {
+.plaque1, .plaque2, .plaque3 {
     width:300px;
     min-width: 200px;
     height:300px;
@@ -196,12 +196,33 @@ img {
     transition: ease 0.1s;
 }
 
-.content-img:hover {
+.plaque1 {
+    background-image: url(./photos/plaque1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+.plaque2 {
+    background-image: url(./photos/plaque2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+.plaque3 {
+    background-image: url(./photos/plaque3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+
+
+.plaque1:hover, .plaque2:hover, .plaque3:hover {
     transform:scale(1.05);
 }
 .memorial-wall {
     padding: 80px 0;
-    height: 600px;
+    height: 130vh;
     width: 100%;
     background: url(./photos/memorial\ wall.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -210,7 +231,7 @@ img {
 .memorial-wall p{
     padding-left: 200px;
     padding-right: 200px;
-    margin-top: 230px;
+    margin-top: 60vh;
     mix-blend-mode:luminosity;
     text-align: center;
     font-size: 36px;

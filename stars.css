@@ -198,6 +198,19 @@ img {
 
 }
 
+.star-image {
+    display: flex;
+    flex-direction: column;
+    transition:ease-in .7s;
+    color: #1f293700;
+}
+
+.star-image:hover {
+    color: #f7601b;
+    font-size: 22px;
+}
+
+
 .cards {
     padding-top: 50px;
     padding-bottom: 50px;
