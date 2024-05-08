@@ -288,6 +288,10 @@ footer {
 
 }
 
+.description-2 {
+    text-align: center;
+
+}
 .military-image, .military-blurb {
     display: flex;
     justify-content: center;
